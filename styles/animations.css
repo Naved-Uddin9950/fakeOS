@@ -1,0 +1,27 @@
+.slideInUp {
+    animation: slideInUp 1s forwards;
+}
+
+.slideOutDown {
+    animation: slideOutDown 1s forwards;
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideOutDown {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(100%);
+    }
+}
